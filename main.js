@@ -4,5 +4,5 @@ window.onload = sreen;
 function screen (){
     myWidth = window.innerWidth;
 
-    document.getElementById("size").innerHTML = "Width : " +;
+    document.getElementById("size").innerHTML = "Width : " + myWidth;
 }
