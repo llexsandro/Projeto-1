@@ -1,8 +1,8 @@
-window.onresize = sreen;
-window.onload = sreen;
+window.onresize = screen;
+window.onload = screen;
 
-function screen (){
+function screen() {
     myWidth = window.innerWidth;
 
-    document.getElementById("size").innerHTML = "Width : " + myWidth;
+    document.getElementById("size").innerHTML = "Width : " + myWidth + "px";
 }
